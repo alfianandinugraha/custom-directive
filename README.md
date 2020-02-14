@@ -23,3 +23,36 @@ Custom Directive adalah atribut kustom yang ada di Vue.js seperti halnya *v-if* 
 </pre>
 
 Pemanggilan dalam attribut HTML adalah *v-namaDirective*
+
+## Argumen Pada Bind()
+### Argumen Pertama
+Digunakan untuk mengembalikan nilai berupa element HTML
+
+### Argumen Kedua
+Digunakan untuk memproses data yang berhubungan dengan Custom Directive
+
+## Value, Arg, dan Modifiers
+### Value
+Adalah nilai yang diambil dari nilai atribut custom directive tersebut , misalkan
+<pre>
+<tt>
+v-namaDirective="'red'"
+</tt>
+</pre>
+*'red'* adalah value
+
+### Arg
+<pre>
+<tt>
+v-namaDirective:myArg="'red'"
+</tt>
+</pre>
+*myArg* adalah argument atau arg
+
+### Modifiers
+<pre>
+<tt>
+v-namaDirective.mod="'red'"
+</tt>
+</pre>
+*mod* adalah modifiers
